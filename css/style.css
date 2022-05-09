@@ -20,3 +20,28 @@ hr {
     color: cornflowerblue;
     width: 0px;
 }
+
+
+li {
+
+    list-style: none;
+}
+
+
+.hide {
+    display: none;
+  }
+  
+  .myDIV:hover + .hide {
+    display: block;
+    color: red;
+  }
+
+h3 {
+    color: blue;
+    font-size: 1em;
+}
+
+.smaller {
+    font-size: 1.5em;
+}
